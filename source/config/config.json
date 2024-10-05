@@ -1,0 +1,20 @@
+{
+    "AppName": "Orion",
+    "Developer": "Artemis",
+
+    "attack": {
+        "method_list": ["TCP", "UDP", "RAW", "SAMP", "IGMP", "HTTP", "STD", "CC", "SLOW"]
+    },
+
+    "login": {
+        "isRequiredToLogin": false,
+        "username": ["Artemis", "Orion", "Grimm"],
+        "password": "artemis@2"
+    },
+
+    "server_database": {
+        "server_hostname": "127.0.0.1",
+        "useServer": false,
+        "serverPort": 8000
+    }
+}
